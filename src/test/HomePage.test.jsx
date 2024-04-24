@@ -39,7 +39,6 @@ describe("HomePage component", async () => {
     render(
       <MemoryRouter initialEntries={["/"]}>
         <App />
-      </MemoryRouter>
     );
 
     const networkRequestMade = spyAxios.mock.calls.length > 0;
